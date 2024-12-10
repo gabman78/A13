@@ -1,0 +1,435 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v5_2111 {
+  width: 392px;
+  height: 440px;
+  background: rgba(57,57,83,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.v5_2116 {
+  width: 392px;
+  height: 440px;
+  background: url("../images/v5_2116.png"); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 24px 24px;
+  margin: 16px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  margin: auto;
+}
+.v5_2117 {
+  width: 344px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: Circular Std;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+  user-select: none;
+}
+.v5_2118 {
+  width: 344px;
+  color: rgba(200,199,216,1);
+  position: absolute;
+  top: 88px;
+  left: 23px;
+  font-family: Circular Std;
+  font-weight: Book;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_2119 {
+  width: 344px;
+  color: rgba(200,199,216,1);
+  position: absolute;
+  top: 142px;
+  left: 23px;
+  font-family: Circular Std;
+  font-weight: Book;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_2120 {
+  width: 344px;
+  color: rgba(200,199,216,1);
+  position: absolute;
+  top: 196px;
+  left: 24px;
+  font-family: Circular Std;
+  font-weight: Book;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_2121 {
+  width: 344px;
+  color: rgba(200,199,216,1);
+  position: absolute;
+  top: 249px;
+  left: 24px;
+  font-family: Circular Std;
+  font-weight: Book;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_2122 {
+  width: 344px;
+  color: rgba(200,199,216,1);
+  position: absolute;
+  top: 301px;
+  left: 24px;
+  font-family: Circular Std;
+  font-weight: Book;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_2124 {
+  height: 24px;
+  background: url("../images/v5_2124.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 8px;
+  opacity: 1;
+  position: absolute;
+  top: 392px;
+  left: 24px;
+  overflow: hidden;
+}
+.v5_2126 {
+  width: 382px;
+  background: url("../images/v5_2126.png");
+  opacity: 1;
+  position: absolute;
+  top: 127px;
+  left: 4px;
+  border: 3px solid rgba(165,158,186,1);
+}
+.v5_2127 {
+  width: 382px;
+  background: url("../images/v5_2127.png");
+  opacity: 1;
+  position: absolute;
+  top: 182px;
+  left: 4px;
+  border: 3px solid rgba(165,158,186,1);
+}
+.v5_2128 {
+  width: 382px;
+  background: url("../images/v5_2128.png");
+  opacity: 1;
+  position: absolute;
+  top: 234px;
+  left: 4px;
+  border: 3px solid rgba(165,158,186,1);
+}
+.v5_2129 {
+  width: 382px;
+  background: url("../images/v5_2129.png");
+  opacity: 1;
+  position: absolute;
+  top: 342px;
+  left: 4px;
+  border: 3px solid rgba(165,158,186,1);
+}
+.v5_2130 {
+  width: 382px;
+  background: url("../images/v5_2130.png");
+  opacity: 1;
+  position: absolute;
+  top: 287px;
+  left: 4px;
+  border: 3px solid rgba(165,158,186,1);
+}
+
+.lista {
+  height: 360px;
+  overflow-x: hidden;
+  margin-top: 50px;
+  font-family: Circular Std;
+  font-weight: Book;
+  font-size: 32px;
+  color: rgba(200, 199, 216, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: auto;
+
+}
+
+.spa {
+  height: 360px;
+  width: 344px;
+  overflow-x: hidden;
+}
+
+.lista-item {
+  border-bottom: 4px solid rgba(165,158,186,1);
+  overflow-x: hidden;
+  width: 344px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+
+
+.selected {
+  background-color: yellow;
+}
+
+
+.highlighted {
+  /* Modifiche quando il bottone viene selezionato */
+  background-color: transparent;
+  color: #f5b041;
+  font-weight: bold;
+}
+
+.swal-button--confirm {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Pulsanti di navigazione - stato predefinito */
+/* Stile per i pulsanti di navigazione */
+.btn {
+  background-color: #007bff !important; /* Grigio di default */
+  color: white !important;
+  border: 1px solid #007bff !important;
+}
+
+/* Stile del pulsante attivo */
+.btn-active {
+  background-color: #007bff !important; /* Blu */
+  color: white !important;
+  font-weight: bold;
+  border: 2px solid #0056b3 !important;
+}
+
+/* Stile al passaggio del mouse sui pulsanti */
+.btn:hover {
+  background-color: #0056b3 !important; /* Grigio scuro */
+  color: white !important;
+}
+
+/* Stile per "Modifica Biografia" */
+#editBioButton {
+  background-color: #28a745 !important; /* Blu fisso */
+  color: white !important;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover per "Modifica Biografia" */
+#editBioButton:hover {
+  background-color: #218838 !important; /* Blu scuro */
+}
+#avatarSelection {
+  display: none;
+  position: absolute; /* Posiziona la tendina in modo assoluto */
+  top: 50px; /* Distanza dalla parte superiore della colonna */
+  left: 0;  /* Allineamento a sinistra */
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;  /* Imposta una larghezza fissa per la tendina */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra per una visibilità migliore */
+  z-index: 10; /* Assicurati che la tendina si sovrapponga agli altri contenuti */
+}
+
+.avatar-option {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.avatar-option.selected {
+  border: 2px solid #007bff; /* Aggiungi un bordo per l'immagine selezionata */
+}
+
+#saveAvatarButton {
+  display: block;
+  margin: 10px auto; /* Centra il pulsante */
+  width: 100%; /* Rende il pulsante largo quanto la tendina */
+}
+.col-210 {
+  display: flex;
+  flex-direction: column; /* Allinea gli elementi verticalmente */
+  align-items: center;    /* Centra gli elementi orizzontalmente */
+  justify-content: center; /* Allinea gli elementi al centro */
+  padding: 10px;
+}
+
+#currentProfilePicture {
+  width: 100px; /* Imposta la larghezza dell'immagine */
+  height: 100px; /* Imposta l'altezza dell'immagine */
+}
+
+#modifyAvatarButton {
+  margin-top: 10px; /* Aggiungi uno spazio tra l'immagine e il pulsante */
+}
+
+/*Lista amici style GabMan 04/12*/
+/* Contenitore generale */
+#friendsContainer {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Stile per un singolo amico */
+.friend-item {
+  display: flex; /* Utilizza Flexbox per il layout */
+  align-items: center; /* Allinea verticalmente */
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Aggiungi una separazione tra gli amici */
+  background-color: #f9f9f9; /* Colore di sfondo */
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.friend-avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px; /* Spazio tra avatar e testo */
+  border-radius: 50%; /* Rendi l'avatar circolare */
+}
+
+.friend-info {
+  flex-grow: 1; /* Fai espandere questa sezione per riempire lo spazio */
+  text-align: left;
+}
+
+.delete-friend-btn {
+  margin-left: auto; /* Sposta il pulsante all'estrema destra */
+  padding: 5px 10px; /* Aggiusta padding del pulsante */
+}
+
+/*GabMan 08-12 Sezione Profilo */
+/* Stile per la modale di modifica informazioni */
+.modal {
+  display: none; /* La modale è nascosta di default */
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4); /* Sfondo semitrasparente */
+}
+
+.modal-dialog {
+  margin: 10% auto;
+  max-width: 500px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.close {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Aggiunge un effetto hover per il pulsante "Annulla" */
+.btn-secondary:hover {
+  background-color: #6c757d;
+}
+
+/* Aggiunge un effetto hover per il pulsante "Salva modifiche" */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Stile per il contenitore delle informazioni utente */
+#userInfo {
+  background-color: #f8f9fa; /* Aggiungi uno sfondo chiaro */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#userFullName {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+#userNickname {
+  font-size: 1.2rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Stile per il pulsante di modifica informazioni */
+#editInfoButton {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+#editInfoButton:hover {
+  background-color: #0056b3;
+}
+
+
+/* Nascondi tutte le sezioni per impostazione predefinita */
+.section {
+  display: none;
+}
+
+/* Mostra solo la sezione attiva */
+.section.active {
+  display: block;
+}
+

@@ -1,0 +1,65 @@
+/* PER I PULSANTI */
+/* Modifica del colore di sfondo e del testo per i bottoni principali */
+.btn-primary, .btn-primary:active, .btn-primary:visited{
+  background-color: #f07178 !important;
+  border-color: #ba585d !important;
+  color: white !important;
+}
+
+/* Cambia il colore al passaggio del mouse */
+.btn-primary:hover {
+  background-color: #f07178 !important;
+  border-color: #ba585d !important;
+  color: #fff !important;
+}
+
+.btn-success, .btn-success:active, .btn-success:visited{
+  background-color: #fdb838 !important;
+  border-color: #e0ad4d !important;
+  color: white !important;
+}
+
+/* Cambia il colore al passaggio del mouse */
+.btn-success:hover {
+  background-color: #fdb838 !important;
+  border-color: #e0ad4d !important;
+  color: #fff !important;
+}
+/*cami*/
+/* Colore predefinito per i pulsanti */
+button.btn {
+  background-color: #007bff !important; /* Grigio Bootstrap */
+  color: white !important;
+  border: 1px solid #007bff !important;
+}
+
+/* Pulsante attivo */
+button.btn-active {
+  background-color: #007bff; /* Blu */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #0056b3;
+}
+
+/* Hover sul pulsante attivo */
+button.btn-active:hover {
+  background-color: #0056b3 !important; /* Blu scuro */
+}
+
+/* Stile fisso per il pulsante "Modifica Biografia" */
+#editBioButton {
+  position: relative; /* Rimuove potenziali problemi di layout */
+  margin: 0; /* Resetta margini */
+  display: inline-block; /* Evita che si comporti come pulsanti di barra */
+  background-color: #28a745; /* Blu */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+}
+
+#editBioButton:hover {
+  background-color: #218838; /* Blu scuro */
+}
+
+
