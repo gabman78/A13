@@ -13,8 +13,8 @@ It has  an extremely ambitious goal: to enhance the importance of testing, a dis
 Il Progetto è in fase di sviluppo ed evoluzione. Questo progetto è stato forkato dal Repository Master sito in: https://github.com/Testing-Game-SAD-2023/A13
 
 # Contributori del Branch/ Fork corrente 
-Nomi degli autori dei nuovi contributi presenti in questo repository 
-
+Mangiacapre Gabriele
+D'Andria Camilla
 
 # Funzionalità dell'Applicazione 
 L'applicazione prevede due tipi di utente (giocatore ed amministratore) che dovranno preliminarmente registrarsi al gioco con ruoli diversi. 
@@ -31,6 +31,8 @@ L'amministratore del Gioco può:
 
 # Screenshot dell'applicazione e Video dimostrativi delle funzionalità principali (TBD).
 Siccome un'immagine vale più di mille parole, è buona norma inserire degli screenshot dell'applicativo in modo tale da comunicare visivamente il layout e/o alcune funzionalità del sito. E' anche possibile creare GIF animate che possono essere molto esplicative. Per farlo si può utilizzare ad esempio Recordit.
+
+
 
 # Come iniziare
 1. Assicurarsi di aver correttamente clonato sul proprio workspace, il repository A13 di riferimento; si consiglia, innanzitutto, di 
@@ -148,10 +150,25 @@ A questo punto si avrà l'indirizzo pubblico come risposta nel prompt dei comand
 *__NB__*: il comando può essere copiato direttamente dalla dashboard di Ngrok, si consiglia di utilizzare il dominio di tipo statico
 
 # Breve Descrizione delle Modifiche e delle Nuove Feature aggiunte nel repository corrente
-TBD
+Il Task R1 prevede il miglioramento del profilo giocatore, introducendo
+nuove funzionalità e miglioramenti strutturali per rendere il profilo
+più interattivo e informativo. Nello specifico, il profilo deve essere
+organizzato in sezioni che includano:
+• Informazionipersonalidelgiocatore: permettendoagliutenti
+di modificare le informazioni del loro profilo, inclusa la biografia
+e l’immagine.
+• Statistiche del giocatore: visualizzazione di dati relativi a:
+Partite giocate per tipologia, Numero di partite vinte.
+• Achievement: visualizzazione di badge o premi che segnalano
+il raggiungimento di traguardi specifici, come il superamento di
+soglie di statistiche.
+• Sezione amici consentendo l’interazione e la connessione con
+altri utenti, visualizzando una lista di utenti seguiti e con la
+possibilità di aggiungere o eliminare utenti da questa lista.
 
 # Documentazione di Progetto della Versione corrente
-Riportare il collegamento alla documentazione completa della versione modificata (file pdf) e ai file sorgente dei diagrammi prodotti che dovranno essere contenuti in una cartella denominata "Documentazione_2024" inclusa nel repository stesso.
+La cartella DOCUMENTAZIONE2024 contiene la documentazione relativa al Task implementato e i file sorgente dei diagrammi.
+
 
 
 
